@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exelvi@bash</title>
+    <meta property="og:title" content="exelvi@bash">
+    <meta property="og:description" content="A simple bash terminal made with HTML, CSS and JavaScript.">
+    <meta property="og:image" content="https://exelvi.github.io/terminal/assets/og-image.png">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="700">
+    <meta property="og:url" content="https://exelvi.github.io/terminal/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="exelvi@bash">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="exelvi@bash">
+    <meta name="twitter:description" content="A simple bash terminal made with HTML, CSS and JavaScript.">
+    <meta name="twitter:image" content="https://exelvi.github.io/terminal/assets/og-image.png">
+    <meta name="twitter:url" content="https://exelvi.github.io/terminal/">
+    <meta name="twitter:site" content="@exelvi">
+    <meta name="twitter:creator" content="@exelvi1">
+    <meta name="description" content="A simple bash terminal made with HTML, CSS and JavaScript.">
+    <meta name="keywords" content="bash, terminal, html, css, javascript, exelvi">
+    <meta name="rating" content="general">
+    <meta name="language" content="English">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="exelvi">
+    <link rel="apple-touch-icon" sizes="180x180" href="/terminal/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/terminal/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/terminal/assets/favicon-16x16.png">
+    <link rel="manifest" href="/terminal/assets/site.webmanifest">
+    <link rel="mask-icon" href="/terminal/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/terminal/assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/terminal/assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="app" id="terminal">
+        <div class="top-bar" id="top-bar" draggable="true">           
+            <div class="buttons">
+                <span id="close" class="close"></span>
+                <span id="minimize" class="minimize"></span>
+                <span id="zoom" class="zoom"></span>
+            </div>
+            <div class="actionbuttons">
+                <div id="screenshot" class="action-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-camera" viewBox="0 0 16 16">
+                        <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
+                        <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                      </svg>
+                </div>
+             
+                <div id="reset" class="action-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bb0000" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+                    </svg>
+                </div>
+            </div>
+       
+            
+            <div class="title" id="bar-title">exelvi@bash</div>
+        </div>
+        
+        <div class="terminal" id="terminal-body">
+            <div class="output"></div>
+            <div class="input-line">
+                <span id="prompt" class="prompt">exelvi@bash:/$</span>
+                <input type="text" class="input" autocomplete="off" autocorrect="off" autocapitalize="off"
+                    spellcheck="false">
+            </div>
+            <div class="output-after-input"></div>
+        </div>
+        
+
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+
+</html>
