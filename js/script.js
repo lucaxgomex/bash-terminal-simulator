@@ -181,7 +181,7 @@ javascript mode = "confirm-tempFunction()"`
 
             },
             etc: {
-                "motd": "Welcome to the terminal! \n\nType 'help' to see all available commands",
+                "motd": "Welcome to my terminal project! \n\nType 'help' to see all available commands",
                 "skel": {
                     ".bash_history": "",
                     ".bashrc": "",
