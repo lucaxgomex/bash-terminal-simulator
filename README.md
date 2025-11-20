@@ -1,17 +1,14 @@
-# 🖥️ [Terminal](https://exelvi.github.io/terminal)
-
+# 🖥️ [Web Linux Terminal](https://github.com/lucaxgomex/bash-terminal-simulator)
 
 ![Terminal screen](assets/screen.png)
 
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/EXELVI/terminal?style=for-the-badge)](https://github.com/EXELVI/terminal/commits/main/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/EXELVI/terminal?style=for-the-badge)](https://github.com/lucaxgomex/bash-terminal-simulator/commits/main/)
 [![GitHub repo size](https://img.shields.io/github/repo-size/EXELVI/terminal?style=for-the-badge)](https://github.com/EXELVI/terminal)
 [![GitHub issues](https://img.shields.io/github/issues/EXELVI/terminal?style=for-the-badge)](https://github.com/EXELVI/terminal/issues)
 [![GitHub forks](https://img.shields.io/github/forks/EXELVI/terminal?style=for-the-badge)](https://github.com/EXELVI/terminal/network/members)
 [![GitHub stars](https://img.shields.io/github/stars/EXELVI/terminal?style=for-the-badge)](https://github.com/EXELVI/terminal/stargazers)
 
 This is a **web-based terminal application** built using HTML, CSS, and JavaScript. Originally designed as a portfolio project, it provides a simple yet functional implementation of a terminal interface that allows users to execute commands, navigate the file system, and more.
-
 
 ## ✨ Features
 
@@ -23,8 +20,7 @@ This is a **web-based terminal application** built using HTML, CSS, and JavaScri
 - **Screenshot button**: Easily take a screenshot of the terminal interface with a dedicated button.
 
 ## 🚀 Usage
-
-### [Open the Terminal ![Open Terminal](assets/box-arrow-up-right.svg)](https://exelvi.github.io/terminal) 
+> Once this project hasn't been deployed yet, please locate the `index.html` file on the root directory, and run it by clicking twice.
 
 ## 📝 Commands
 
@@ -72,4 +68,4 @@ Feel free to explore and experiment with different commands to familiarize yours
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/EXELVI/terminal).
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/lucaxgomex/bash-terminal-simulator/tree/dev).

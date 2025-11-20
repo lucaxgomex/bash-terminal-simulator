@@ -148,25 +148,25 @@ document.addEventListener('DOMContentLoaded', function () {
     let fileSystem = {
         '/': {
             home: {
-                exelvi: {
+                hexthersync32: {
                     ".bash_history": "",
                     ".bashrc": "",
                     ".bash_aliases": "",
                     desktop: {
-                        "about.txt": "<!DOCTYPE html>\n<span color='blue'>Hello, I'm exelvi</span>\n<span color='red'>I'm a developer</span>\n<span color='green'>I live in Veneto, Italy</span>\n\n\n<span hidden>Pssss... Also try to type 'color enable' and reopen me </span>",
+                        "about.txt": "<!DOCTYPE html>\n<span color='blue'>Hello, I'm hexthersync32</span>\n<span color='red'>I'm a developer</span>\n<span color='green'>I live in Veneto, Italy</span>\n\n\n<span hidden>Pssss... Also try to type 'color enable' and reopen me </span>",
                         "favotite.txt": "<!DOCTYPE html>\n<span color='#f7de1f'>Javascript</span>\n<span color='#0186d0'>VSCode</span>\n<span color='#5865F2'>Blurple</span>\n\n\n<span hidden>Pssss... Also try to type 'color enable' and reopen me </span>",
                         "links.txt": `<!DOCTYPE html>   
 
-<a target="_blank" rel="noopener noreferrer" href="https://exelvi.github.io">My website</a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/EXELVI">My GitHub</a>
-<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/exelviofficial/">My Instagram</a>
+<a target="_blank" rel="noopener noreferrer" href="https://hexthersync32.github.io">My website</a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/hexthersync32">My GitHub</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hexthersync32official/">My Instagram</a>
 
 \n`,
                     },
                     documents: {
                         "troll.txt": "cat: troll.txt: Path not found", "player.sh": `javascript new Audio(realPrompt("Song URL (MP3 or other file)")).play();
 echo You can't stop it :)`,
-                        "fontChanger.sh": `javascript tempFunction = function (path) { fileSystemFunctions.changeFileContent("/etc/profile", fileSystemFunctions.readFileContent("/etc/profile") + "\\n" + fileSystemFunctions.readFileContent('/home/exelvi/documents/fontChangerStart.sh')); } 
+                        "fontChanger.sh": `javascript tempFunction = function (path) { fileSystemFunctions.changeFileContent("/etc/profile", fileSystemFunctions.readFileContent("/etc/profile") + "\\n" + fileSystemFunctions.readFileContent('/home/hexthersync32/documents/fontChangerStart.sh')); } 
 echo Do you want to change the font automatically at the start?
 echo javascript document.body.style.fontFamily = "Arial, sans-serif" > fontChangerStart.sh
 javascript prompt.textContent = "(y/n)"
@@ -201,12 +201,12 @@ javascript mode = "confirm-tempFunction()"`
     let settings = {
         users: [
             {
-                "name": "exelvi",
+                "name": "hexthersync32",
                 "password": "password", //easy :)
                 "UID": 1000,
-                "home": "/home/exelvi",
+                "home": "/home/hexthersync32",
                 "permissions": {
-                    "/home/exelvi": ["r", "w", "x"],
+                    "/home/hexthersync32": ["r", "w", "x"],
                     "/": ["r"],
                 }
 
@@ -368,7 +368,7 @@ javascript mode = "confirm-tempFunction()"`
     });
 
     closeButton.addEventListener('click', function () {
-        document.location.href = "https://exelvi.github.io";
+        document.location.href = "https://hexthersync32.github.io";
         document.getElementById('terminal').style.display = 'none';
     });
 
@@ -1609,7 +1609,7 @@ javascript mode = "confirm-tempFunction()"`
                 var output = document.createElement('div');
                 if (settings.currentUser !== 0) {
                     output.textContent = 'Bye!';
-                    window.location.href = 'https://exelvi.github.io';
+                    window.location.href = 'https://hexthersync32.github.io';
 
                 } else {
                     settings.currentUser = settings.lastUser;
